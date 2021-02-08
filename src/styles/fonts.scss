@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Pokemon-Solid";
+  src: local("Pokemon-Solid"), url("../fonts/Pokemon-Solid.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Pokemon-Hollow";
+  src: local("PokemonHollow"), url("../fonts/Pokemon-Solid.woff") format("woff");
+  font-weight: normal;
+}

@@ -1,0 +1,10 @@
+.heroBg {
+  background-color: #ffd900;
+  background-image: url("../../../images/bg_mobile.jpg");
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+  @screen sm {
+    background-image: url("../../../images/bg_desktop.jpg");
+  }
+}
