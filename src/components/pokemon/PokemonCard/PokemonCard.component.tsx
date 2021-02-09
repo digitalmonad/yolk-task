@@ -27,7 +27,7 @@ export const PokemonCard: FC<PokemonCardPropsT> = ({
         <div className='flex flex-col flex-grow'>
           <h4 className='mb-2 font-bold'>Moves:</h4>
           {moves.map((move) => (
-            <span>{move}</span>
+            <span key={move}>{move}</span>
           ))}
         </div>
         <div className='flex flex-col flex-grow'>
